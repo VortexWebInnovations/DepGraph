@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBJ6B6L6LH"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YTL3KEVKDQ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -11,17 +11,19 @@
 
         gtag('js', new Date());
 
-        gtag('config', 'G-MBJ6B6L6LH');
+        gtag('config', 'G-YTL3KEVKDQ');
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-          content="Dependency Graph - a type of Gantt chart that shows blocking relationships from left to right or from top to bottom. View ALL connected issues, including the full epic and subtasks tree. The dependency map allows you to view, create, and delete links.">
+          content="The Jira Dependency Graph Addon now offers the ability to group issues by team, project, status, issue type, and priority, enhancing your project management capabilities. Tailor your dependency graph for a more efficient and insightful Jira experience.">
     <title>Issue groups in Dependency Graph for Jira Cloud</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/product.css" rel="stylesheet">
 
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
@@ -44,9 +46,9 @@
 <nav class="navbar navbar-expand-md bg-dark sticky-top border-bottom" data-bs-theme="dark">
     <div class="container">
         <div class="navbar-nav flex-row flex-wrap bd-navbar-nav">
-            <a class="nav-link py-2 px-0 px-lg-2 active" href="/LinkGraph/">Dependency Graph</a>
+            <a class="nav-link py-2 px-0 px-lg-2 active" href="./">Dependency Graph</a>
             <a class="nav-link py-2 px-0 px-lg-2"
-               href="https://marketplace.atlassian.com/apps/1231565"
+               href="https://marketplace.atlassian.com/apps/1231565/dependency-graph-view-the-complete-hierarchy-map-of-issues?hosting=cloud&tab=overview"
                target="_blank" rel="noopener">
                 Atlassian marketplace
                 <svg class="bi" width="16" height="16">
@@ -70,22 +72,22 @@
                 </a>
             </li>
             <li>
-                <a href="/LinkGraph/issue_fields.html" class="nav-link  text-white">
+                <a href="./issue_fields.html" class="nav-link  text-white">
                     Issue fields
                 </a>
             </li>
             <li>
-                <a href="/LinkGraph/issue_groups.html" class="nav-link active">
+                <a href="./issue_groups.html" class="nav-link active">
                     Issue groups
                 </a>
             </li>
             <li>
-                <a href="/LinkGraph/themes.html" class="nav-link text-white">
+                <a href="./themes.html" class="nav-link text-white">
                     Themes
                 </a>
             </li>
             <li>
-                <a href="/LinkGraph/privacy_policy.html" class="nav-link text-white">
+                <a href="./privacy_policy.html" class="nav-link text-white">
                     Privacy Policy
                 </a>
             </li>
@@ -96,7 +98,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" class="nav-link text-white text-bg-success">
+                <a href="./discount.html" class="nav-link text-white text-bg-success">
                     Get discount&nbsp;<svg class="bi" width="16" height="16">
                     <use xlink:href="#cart"/>
                 </svg>
@@ -110,7 +112,13 @@
         <div class="position-relative overflow-hidden p-3 bg-body-tertiary">
             <div class="col-md-12 p-lg-3 float-start my-2">
                 <h3 class="fw-bold">Issue groups in Dependency Graph for Jira Cloud</h3>
-                <h5 class="fw-normal text-muted mb-3">Many group issue options are available for display on graph</h5>
+                <p>The Jira Dependency Graph Addon is now offering a dynamic opportunity to group issues by key parameters like team, project, status, issue type, and priority. This feature revolutionizes the way you manage dependencies, providing a holistic view of your projects.</p>
+
+                <p>By grouping issues by team, you can streamline collaboration and ensure everyone is on the same page. Project-based grouping allows for focused tracking and assessment. Sorting by status helps in identifying bottlenecks and project progress. Issue type grouping simplifies the management of different task categories, and prioritization enables you to focus on critical aspects.</p>
+
+                <p>This level of customization allows for a tailored dependency graph experience, making your Jira project management even more efficient and insightful. With seamless integration through the Atlassian Marketplace, you have access to an extensive array of options to enhance your Jira Dependency Graph Addon, enabling you to create Gantt charts, visualize dependencies, and track progress with precision.</p>
+
+                <p>Harness this opportunity to group issues in a way that best suits your project's unique needs and gain greater control over your project's dependencies. Elevate your Jira experience and unlock new levels of efficiency and clarity in your project management processes.</p>
             </div>
         </div>
         <div class="row text-center ">
@@ -129,6 +137,7 @@
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
                         <h3>Group jira issues by Project</h3>
+                        <p class="lead">Project-based grouping allows you to focus on individual initiatives</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
@@ -142,6 +151,7 @@
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
                         <h3>Group jira issues by team</h3>
+                        <p class="lead">Grouping by team enhances collaboration and team-specific tracking</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
@@ -153,6 +163,7 @@
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
                         <h3>Group jira issues by Status</h3>
+                        <p class="lead">Sorting by status empowers you to pinpoint bottlenecks</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
@@ -166,6 +177,7 @@
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
                         <h3>Group jira issues by issue type</h3>
+                        <p class="lead">Issue type grouping streamlines task management</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
@@ -177,6 +189,7 @@
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
                         <h3>Group jira issues by Priority</h3>
+                        <p class="lead">Prioritization ensures that you address critical aspects promptly.</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
