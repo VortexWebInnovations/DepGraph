@@ -1,4 +1,4 @@
-https://issue-dependency-graph.com/
+https://issue-dependency-graph.com
 https://issue-dependency-graph.com/issue_fields.html
 https://issue-dependency-graph.com/issue_groups.html
 https://issue-dependency-graph.com/themes.html
