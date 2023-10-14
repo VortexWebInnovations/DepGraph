@@ -4,3 +4,4 @@ https://issue-dependency-graph.com/issue_groups.html
 https://issue-dependency-graph.com/themes.html
 https://issue-dependency-graph.com/privacy_policy.html
 https://issue-dependency-graph.com/discount.html
+https://issue-dependency-graph.com/support.html
