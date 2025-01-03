@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-          content="Supercharge your Jira projects with the Jira Dependency Graph Addon. Effortlessly visualize, manage, and track dependencies, and gain deep insights into your project's health. Seamless integration with Atlassian Marketplace ensures a hassle-free experience. Unlock efficient project management today">
-    <title>Dependency Graph plugin for Jira Cloud</title>
+          content="The Jira Dependency Graph Addon now offers the ability to group issues by team, project, status, issue type, and priority, enhancing your project management capabilities. Tailor your dependency graph for a more efficient and insightful Jira experience.">
+    <title>Issue groups in Dependency Graph for Jira Cloud</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/product.css" rel="stylesheet">
@@ -67,7 +67,7 @@
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
             <li class="nav-item">
-                <a href="/" class="nav-link active" aria-current="page">
+                <a href="/" class="nav-link text-white" aria-current="page">
                     Home
                 </a>
             </li>
@@ -77,7 +77,7 @@
                 </a>
             </li>
             <li>
-                <a href="issue_groups.html" class="nav-link text-white">
+                <a href="issue_groups.html" class="nav-link active">
                     Issue groups
                 </a>
             </li>
@@ -108,51 +108,39 @@
     </div>
     <main class="col-md-9  col-lg-10 px-md-4">
 
-        <div class="position-relative overflow-hidden p-3 bg-body-tertiary">
-            <div class="col-md-6 p-lg-3 float-start my-2">
-                <h3 class="fw-bold">Dependency Graph plugin for Jira Cloud</h3>
-                <p>Unlock the full potential of your Jira project management with the Jira Dependency Graph Addon. This robust extension empowers teams to streamline their workflow and gain unparalleled insights into project dependencies and relationships</p>
-                <p>The centerpiece of this addon is the Jira Dependency Graph, a powerful tool that allows you to visualize and manage dependencies effortlessly. No more struggling to understand how different tasks and tickets interconnect; the dependency graph provides a clear and intuitive overview.</p>
-            </div>
-            <div class="col-md-6 p-lg-3 float-start">
-                <iframe class="float-start" width="460" height="215" src="https://www.youtube.com/embed/6rBTaaNl2CA"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <p>With the Dependency Mapping feature, you can create intricate dependency structures, gaining deeper insights into your project's complexity. Whether it's tracking dependencies, viewing dependency trees, or managing ticket dependencies, this addon has you covered.</p>
-                <p>Find the Jira Dependency Graph Addon on the Atlassian Marketplace for easy installation, and experience the benefits of enhanced roadmap planning, issue linking, and advanced reporting.</p>
-                <p>Learn how to add dependencies, issue links, and epics in Jira effortlessly. This addon empowers you to create and visualize epic, feature, story, and task hierarchies, allowing for effective progress tracking</p>
-                <p>Manage dependencies with ease and optimize your project management process with the Dependency Graph Addon for Jira Cloud. It's your key to success in the Atlassian ecosystem.</p>
+        <div class="position-relative overflow-hidden p-3 bg-body-tertiary pb-0">
+            <div class="col-md-12 p-lg-3 float-start my-2 ">
+                <h3 class="fw-bold">Major Update</h3>
+                <p>The <b>Dependency Graph</b> plugin has received a major update! We've added a plugin page to the issue search
+                    page, side app panel, sprint action button, and backlog action.</p>
+
+                <p>Please update the app manually (ask your admin): Go to <b>Apps Menu → Manage Apps → Update Button</b>.</p>
+                <br/>
+                <p class="mb-0">Here are the new features:</p>
             </div>
         </div>
         <div class="row text-center ">
             <div class="col-6">
-                <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
+                <div class=" me-md-3 px-3 text-center">
                     <div>
-                        <h3>Jira dependency map right inside the issue page</h3>
-                        <p class="lead">Click the app button to visualize dependencies</p>
+                        <h3>The Dependency Graph has been added to the issue search page </h3>
+                        <p class="lead">Users can now view dependencies directly from the search results</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
-                        <img src="screenshots/home/main.jpg" alt="open app" class="screenshot"/>
+                        <img src="screenshots/v7/issue_navigation.jpg" alt="issue navigation dependency" class="screenshot"/>
                     </div>
                 </div>
             </div>
             <div class="col-6">
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
-                        <h3>Select the fields of related issues to be displayed</h3>
-                        <p class="lead">Click on the 'Fields' menu item and choose the desired fields. There are many
-                            useful fields for visualization, such as 'Progress',' 'Due date,' 'Labels,' 'Team,' 'Time
-                            spent,' 'Estimations,' and many others</p>
+                        <h3>The app has been added to the backlog page</h3>
+                        <p class="lead">Users can view the current board's issue dependencies grouped by status</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
-                        <img src="screenshots/home/fields.jpg" alt="open app" class="screenshot"/>
+                        <img src="screenshots/v7/board.jpg" alt="backlog page" class="screenshot"/>
                     </div>
                 </div>
             </div>
@@ -161,25 +149,25 @@
             <div class="col-6">
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
-                        <h3>Filter issues</h3>
-                        <p class="lead">Click on the "Filter" menu item and apply the desired ticket filters</p>
+                        <h3>The app is now available from the apps menu</h3>
+                        <p class="lead">providing a larger area for viewing issue dependencies</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
-                        <img src="screenshots/home/filters.jpg" alt="open app" class="screenshot"/>
+                        <img src="screenshots/v7/apps_menu.jpg" alt="apps menu" class="screenshot"/>
                     </div>
                 </div>
             </div>
             <div class="col-6">
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
-                        <h3>Many issue grouping options are available</h3>
-                        <p class="lead">Issues can be grouped by parent/epic, project, team, status, priority, and task
-                            type</p>
+                        <h3>Sprint Dependencies
+                            </h3>
+                        <p class="lead">View issue dependencies for a specific sprint. By default, all issues are grouped by their respective sprints.</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
-                        <img src="screenshots/home/groups.jpg" alt="open app" class="screenshot"/>
+                        <img src="screenshots/v7/sprint.jpg" alt="sprint dependencies" class="screenshot"/>
                     </div>
                 </div>
             </div>
@@ -188,52 +176,12 @@
             <div class="col-6">
                 <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
                     <div>
-                        <h3>Select a theme for the dependency graph</h3>
-                        <p class="lead">Different themes are available to suit any taste</p>
+                        <h3>Board menu</h3>
+                        <p class="lead">For Scrum boards, you can view all issues in the current and future sprints. For Kanban boards, all "In Progress" issues are visible by default.</p>
                     </div>
                     <div class="bg-dark shadow-sm mx-auto screenshot-example"
                          style=" border-radius: 21px 21px 0 0;">
-                        <img src="screenshots/home/themes.jpg" alt="open app" class="screenshot"/>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
-                    <div>
-                        <h3>Creation and deletion of links</h3>
-                        <p class="lead">Click on the first issue, then click on the second issue to create a "block"
-                            link.
-                            Alternatively, click the "custom link" button to open a modal window with link type
-                            options</p>
-                    </div>
-                    <div class="bg-dark shadow-sm mx-auto screenshot-example"
-                         style=" border-radius: 21px 21px 0 0;">
-                        <img src="screenshots/link_create.gif" alt="open app" class="screenshot"/>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row text-center bg-info-subtle">
-            <div class="col-6">
-                <div class=" me-md-3 pt-3 px-3 pt-md-5  text-center">
-                    <div>
-                        <h3>Two graph orientations are available: top to bottom or left to right</h3>
-                        <p class="lead">Click the "Rotation" menu button</p>
-                    </div>
-                    <div class="bg-dark shadow-sm mx-auto screenshot-example"
-                         style=" border-radius: 21px 21px 0 0;">
-                        <img src="screenshots/home/direction.jpg" alt="open app" class="screenshot"/>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="bg-info-subtle me-md-3 pt-3 px-3 pt-md-5  text-center">
-                    <div>
-                        <h3>Pan and zoom through lots of linked issues</h3>
-                    </div>
-                    <div class="bg-dark shadow-sm mx-auto screenshot-example"
-                         style=" border-radius: 21px 21px 0 0;">
-                        <img src="screenshots/zoom.gif" alt="open app" class="screenshot"/>
+                        <img src="screenshots/v7/board.jpg" alt="board dependencies" class="screenshot"/>
                     </div>
                 </div>
             </div>
