@@ -9,6 +9,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/product.css" rel="stylesheet">
+    <link rel="stylesheet" href="photo/photoswipe.css">
 
     <link rel="shortcut icon" href="/favicon.ico">
 
@@ -90,8 +91,13 @@
                 </a>
             </li>
             <li>
-                <a href="privacy_policy.html" class="nav-link text-white active">
+                <a href="privacy_policy.html" class="nav-link text-white ">
                     Privacy Policy
+                </a>
+            </li>
+            <li>
+                <a href="terms_of_use.html" class="nav-link text-white active">
+                    Terms of use
                 </a>
             </li>
             <li>
@@ -100,17 +106,15 @@
                 </a>
             </li>
             <li>
-            <li>
                 <a href="discount.html" class="nav-link text-white  ">
                     Get discount
                 </a>
             </li>
             <li>
                 <a href="https://marketplace.atlassian.com/apps/1231565/dependency-graph-view-the-complete-hierarchy-map-of-issues?hosting=cloud&tab=overview"
-                   target="_blank" rel="noopener">
+                   class="nav-link text-white text-bg-success " target="_blank" rel="noopener">
                     Install the app using the Atlassian Marketplace
                 </a>
-            </li>
             </li>
         </ul>
 
@@ -593,15 +597,39 @@
         </div>
     </div>
 </footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="photo/umd/photoswipe.umd.min.js"></script>
+<script src="photo/umd/photoswipe-lightbox.umd.min.js"></script>
+<script type="text/javascript">
+    window.addEventListener('load', () => {
+        const images = document.querySelectorAll('img.screenshot');
+
+        const lightbox = new PhotoSwipeLightbox({
+            pswpModule: PhotoSwipe,
+            dataSource: Array.from(images).map((img, index) => {
+                // Attach a click event to each image
+                img.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    lightbox.loadAndOpen(index);
+                });
+
+                return {
+                    src: img.src,
+                    width: img.naturalWidth || 1600,
+                    height: img.naturalHeight || 900,
+                };
+            }),
+        });
+
+        lightbox.init();
+    });
+</script>
+
 <script data-jsd-embedded data-key="a175cd69-d0d8-4d09-a0b2-3f32e1230afe"
         data-base-url="https://jsd-widget.atlassian.com"
         src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/lightense.min.js"></script>
-<script type="text/javascript">
-    window.addEventListener('load', function () {
-        Lightense('img:not(.no-lightense),.lightense');
-    }, false);
 
 </script>
 </body>
