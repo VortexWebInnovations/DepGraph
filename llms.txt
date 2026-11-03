@@ -1,0 +1,20 @@
+# Dependency Graph: Visualize Dependency Map for Jira
+
+> Jira Cloud app by VortexWeb Innovations to view and visualize Jira dependencies as an interactive dependency map, from blockers and linked issues to the full epic-to-subtask dependency tree. About 3,500 people use it on 185 Jira sites (October 2026). Free for up to 10 users.
+
+Key facts:
+- Opens from the issue view, project page, global page, issue search, board, backlog, sprint, dashboard and Jira Service Management queue.
+- Starts a graph from a JQL query, a saved filter, an epic, a release or a single work item.
+- Highlights an issue's whole dependency path; the "Cross Epic connection" filter keeps only links between different epics; grouping by dependency level shows which work items can start first.
+- 12 groupings, 18 filters, 70+ card fields; create and delete links on the graph.
+- Works across projects with existing Jira links; no setup and no Jira Premium needed. Jira Cloud only.
+- Runs on Atlassian; sends no issue data outside Atlassian. View settings and search history are saved as Jira user properties in each user's own account.
+
+## Pages
+- [Home](https://issue-dependency-graph.com/): overview, features and FAQ
+- [Where to open it in Jira](https://issue-dependency-graph.com/open-dependency-graph-in-jira.html): issue view, issue search, board, backlog, sprint and the Apps menu
+- [Features](https://issue-dependency-graph.com/dependency-graph-features.html): blockers, hierarchy and execution order
+- [How to visualize dependencies in Jira](https://issue-dependency-graph.com/how-to-visualize-dependencies-in-jira.html): native options compared with a dependency graph app
+- [Issue fields](https://issue-dependency-graph.com/issue_fields.html), [Issue groups](https://issue-dependency-graph.com/issue_groups.html), [Themes](https://issue-dependency-graph.com/themes.html)
+- [Support](https://issue-dependency-graph.com/support.html), [Privacy policy](https://issue-dependency-graph.com/privacy_policy.html)
+- [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/1231565/dependency-graph-visualize-dependency-map-for-jira)
