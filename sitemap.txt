@@ -1,7 +1,10 @@
-https://issue-dependency-graph.com
+https://issue-dependency-graph.com/
+https://issue-dependency-graph.com/open-dependency-graph-in-jira.html
+https://issue-dependency-graph.com/dependency-graph-features.html
+https://issue-dependency-graph.com/how-to-visualize-dependencies-in-jira.html
 https://issue-dependency-graph.com/issue_fields.html
 https://issue-dependency-graph.com/issue_groups.html
 https://issue-dependency-graph.com/themes.html
-https://issue-dependency-graph.com/privacy_policy.html
-https://issue-dependency-graph.com/discount.html
 https://issue-dependency-graph.com/support.html
+https://issue-dependency-graph.com/privacy_policy.html
+https://issue-dependency-graph.com/terms_of_use.html
