@@ -21,3 +21,7 @@ img.screenshot {
     height: auto;
     max-width: 100%;
 }
+.trust .list-inline-item {
+    white-space: nowrap;
+    margin-right: 1rem;
+}
